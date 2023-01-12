@@ -1,38 +1,35 @@
 {
-	"modelIntroduce": "Shizuku Talk ！这里是 Shizuku ~",
-	"name": "Naxida.8192",
-	"model": "../../../models/YUANSHEN/Naxida/草神.moc3",
-	"textures": [
-		"../../../models/YUANSHEN/Naxida/草神.8192/texture_00.png"
-	],
-	"physics": "../../../models/YUANSHEN/Naxida/physics3.json",
-	"expressions": [
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "../../../models/YUANSHEN/Naxida/草神.moc3",
+		"Textures": [
+			"../../../models/YUANSHEN/Naxida/草神.8192/texture_00.png"
+		],
+		"Physics": "../../../models/YUANSHEN/Naxida/草神.physics3.json",
+		"DisplayInfo": "../../../models/YUANSHEN/Naxida/草神.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "发光.exp3.json",
+				"File": "../../../models/YUANSHEN/Naxida/发光.exp3.json"
+			}
+		]
+	},
+	"Groups": [
 		{
-			"name": "f01",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/发光.exp.json"
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
 		}
 	],
-	"layout": {
-		"center_x": 0,
-		"center_y": -0.16,
-		"width": 1.8
-	},
-	"hit_areas_custom": {
-		"head_x": [
-			-0.35,
-			0.6
-		],
-		"head_y": [
-			0.19,
-			-0.2
-		],
-		"body_x": [
-			-0.3,
-			-0.25
-		],
-		"body_y": [
-			0.3,
-			-0.9
-		]
-	}
+	"HitAreas": []
 }
