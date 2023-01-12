@@ -1,16 +1,15 @@
 {
-	"modelIntroduce": "来自 原神 的 Naxida ~",
+	"modelIntroduce": "Shizuku Talk ！这里是 Shizuku ~",
 	"name": "Naxida.8192",
-	"model": "../../../models/YUANSHEN/Naxida/model.moc3",
+	"model": "../../../models/YUANSHEN/Naxida/草神.moc3",
 	"textures": [
-		"../../../models/YUANSHEN/Naxida/textures/texture_00.png"
+		"../../../models/YUANSHEN/Naxida/草神.8192/texture_00.png"
 	],
 	"physics": "../../../models/YUANSHEN/Naxida/physics3.json",
-	"pose": "../../../models/YUANSHEN/Naxida/motions/2.motion3.json",
 	"expressions": [
 		{
 			"name": "f01",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/f01.exp3.json"
+			"file": "../../../models/YUANSHEN/Naxida/expressions/发光.exp.json"
 		}
 	],
 	"layout": {
@@ -34,16 +33,6 @@
 		"body_y": [
 			0.3,
 			-0.9
-		]
-	},
-	"motions": {
-		"idle": [
-			{
-				"file": "../../../models/YUANSHEN/Naxida/motions/1.motion3.json"
-			},
-			{
-				"file": "../../../models/YUANSHEN/Naxida/motions/2.motion3.json"
-			}
 		]
 	}
 }
