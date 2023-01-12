@@ -1,0 +1,35 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Naxida.moc3",
+		"Textures": [
+			"Naxida.8192/texture_00.png"
+		],
+		"Physics": "physics3.json",
+		"DisplayInfo": "cdi3.json",
+		"Expressions": [
+			{
+				"Name": "f01.exp3.json",
+				"File": "f01.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}
