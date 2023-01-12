@@ -6,47 +6,11 @@
 		"../../../models/YUANSHEN/Naxida/textures/texture_00.png"
 	],
 	"physics": "../../../models/YUANSHEN/Naxida/physics3.json",
-	"pose": "../../../models/YUANSHEN/Naxida/motions/待机动画.motion3.json",
+	"pose": "../../../models/YUANSHEN/Naxida/motions/2.motion3.json",
 	"expressions": [
 		{
 			"name": "f01",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/发光.exp3.json"
-		},
-		{
-			"name": "f02",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/黑.exp3.json"
-		},
-		{
-			"name": "f03",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/泪.exp3.json"
-		},
-		{
-			"name": "f04",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/脸红.exp3.json"
-		},
-		{
-			"name": "f05",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/生气.exp3.json"
-		},
-		{
-			"name": "f06",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/星星.exp3.json"
-		},
-		{
-			"name": "f07",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/叶子.exp3.json"
-		},
-		{
-			"name": "f08",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/姿势1.exp3.json"
-		},
-		{
-			"name": "f09",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/姿势2.exp3.json"
-		},
-		{
-			"name": "f10",
-			"file": "../../../models/YUANSHEN/Naxida/expressions/姿势3.exp3.json"
+			"file": "../../../models/YUANSHEN/Naxida/expressions/f01.exp3.json"
 		}
 	],
 	"layout": {
@@ -78,7 +42,7 @@
 				"file": "../../../models/YUANSHEN/Naxida/motions/1.motion3.json"
 			},
 			{
-				"file": "../../../models/YUANSHEN/Naxida/motions/待机动画.motion3.json"
+				"file": "../../../models/YUANSHEN/Naxida/motions/2.motion3.json"
 			}
 		]
 	}
